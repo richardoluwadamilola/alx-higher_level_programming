@@ -52,4 +52,4 @@ class Rectangle:
         if self.__width == 0 or self.__height == 0:
             return (0)
         rectangle_params = ((2 * self.__height) + (2 * self.__width))
-        return 
+        return rectangle_params
