@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 """urllib usage"""
-import urllib.request
+from urllib import request
 
 
 if __name__ == "__main__":
-    with urllib.request.urlopen('https://intranet.hbtn.io/status') as response:
+    with request.urlopen('https://intranet.hbtn.io/status') as response:
         html = response.read()
         print('Body response:')
         print('\t- type:', type(html))
